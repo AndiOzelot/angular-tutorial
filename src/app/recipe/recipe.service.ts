@@ -1,6 +1,6 @@
 import { Recipe } from './recipe.model';
-import { Ingredient } from "app/shared/ingredient.model";
-import { EventEmitter } from "@angular/common/src/facade/async";
+import { Ingredient } from 'app/shared/ingredient.model';
+import { EventEmitter } from '@angular/core';
 
 export class RecipeService {
     private recipes: Recipe[] = [

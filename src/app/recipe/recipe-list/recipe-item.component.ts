@@ -1,4 +1,4 @@
-import { Input } from '@angular/core/src/metadata/directives';
+import { Input } from '@angular/core';
 import { Component, OnInit} from '@angular/core';
 import { Recipe } from 'app/recipe/recipe.model';
 import { RecipeService } from 'app/recipe/recipe.service';
